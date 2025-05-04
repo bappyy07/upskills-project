@@ -1,39 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/style.css" rel="stylesheet" />
+    <title>IT-Support</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/style.css" rel="stylesheet">
-  <title>IT-Support</title>
-</head>
+  <body>
+    <header class="md:mx-14 md:py-4 px-2 bg-[#FFFFFF]">
+      <nav class="container mx-auto flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="#"
+            ><img src="./assets/images/logo-1.png" alt="" class="w-10 md:w-fit"
+          /></a>
+        </div>
+        <div class="flex items-center gap-3 md:gap-7">
+          <a
+            href="#"
+            class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1"
+            >Upskill</a
+          >
+          <a
+            href="#"
+            class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1"
+            >Contact</a
+          >
+        </div>
+        <div class="flex items-center gap-2 md:gap-7">
+          <button
+            class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#f44235c6] transition hover:scale-105 hover:translate-y-1"
+          >
+            Register Internet
+          </button>
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 hover:translate-y-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header class="md:mx-14 md:py-4 px-2 bg-[#FFFFFF]">
-    <nav class="container mx-auto flex items-center justify-between">
-      <div class="flex items-center">
-        <a href="#"><img src="./assets/images/logo-1.png" alt=""></a>
-      </div>
-      <div class="flex items-center gap-3 md:gap-7">
-        <a href="#" class=" md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1" >Home</a>
-        <a href="#" class=" md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">About Us</a>
-        <a href="#" class=" md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">Upskill</a>
-        <a href="#" class=" md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">Contact</a>
-      </div>
-      <div class="flex items-center gap-2 md:gap-7">
-        <button
-            class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#f44235c6] transition hover:scale-105 hover:translate-y-1">Register Internet
-        </button>
-        <button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-6 hover:translate-y-1">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-          </svg>
-        </button>
-      </div>
-    </nav>
-  </header>
-</body>
+    <!--  discover section -->
+    <section
+      class="container mx-auto grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10"
+    >
+      <div class="md:col-span-6 col-span-12 md:ml-8">
+        <div class="flex flex-col items-center justify-between mx-auto">
+          <h3 class="text-sm md:text-lg mr-[90px]">
+            Discover <span class="text-[#F44335]"> - </span> Interact
+            <span class="text-[#F44335]"> - </span> Engage
+          </h3>
+          <h3 class="text-[30px] md:text-[72px] font-semibold">
+            Google<br />
+            <span class="text-[#F44335] underline underline-offset-4">
+              IT Support</span
+            ><br />
+            Certificate
+          </h3>
+          <span class="text-sm font-medium lg:ml-[80px]"
+            >This is your path to a career in IT. In this program, you’ll learn
+            in- <br />
+            demand skills with no degree or experience required.
+          </span>
 
+          <div class="flex gap-2 md:gap-7 ml-[110px]">
+            <div class="flex flex-col items-center">
+                <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">438</h2>
+                <p class="text-[17px] font-medium">Videos </p>
+            </div>
+            <div class="flex flex-col items-center">
+                <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">151</h2>
+                <p class="text-[17px] font-medium">Readings</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">108 </h2>
+                <p class="text-[17px] font-medium">Quizzes</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">24</h2>
+                <p class="text-[17px] font-medium"> Exercises</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">4</h2>
+                <p class="text-[17px] font-medium">Assigments </p>
+            </div>
+        </div>
+        <div class="py-3 md:py-6 flex gap-3 md:gap-6">
+          <button class="bg-[#F44335] p-4 md:px-10 rounded-xl transition-all hover:bg-red-600 text-white text-sm md:text-lg">Sign up</button>
+          <button class="bg-[#ffff] p-4 md:px-10 rounded-xl transition-all hover:bg-gray-400 text-black text-sm md:text-lg shadow-md">Learn more</button>
+      </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
