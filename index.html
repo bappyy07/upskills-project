@@ -9,7 +9,7 @@
   <title>IT-Support</title>
 </head>
 
-<body class="dark:bg-[#181C14] bg-[#FAFAFA]">
+<body class="bg-background font-jakarta selection:bg-active selection:text-white">
   <header
   class="max-w-360 ps-4 md:ps-[45px] pe-4 md:pe-15 py-3 mx-auto flex items-center justify-between bg-white dark:bg-gray-500"
 >
@@ -96,78 +96,158 @@
 </header>
 
   <!--  discover section -->
-  <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 bg-[#FAFAFA]">
-    <div class="md:col-span-6 col-span-12 md:ml-25">
-      <h3 class="text-sm md:text-lg mr-[90px]">
-        Discover <span class="text-[#F44335]"> - </span> Interact
-        <span class="text-[#F44335]"> - </span> Engage
-      </h3>
-      <h3 class="text-[30px] md:text-[72px] font-semibold">
-        Google<br />
-        <span class="text-[#F44335] underline underline-offset-4">
-          IT Support</span><br />
-        Certificate
-      </h3>
-      <span class="text-sm font-medium">This is your path to a career in IT. In this program, you’ll learn
-        in- <br />
-        demand skills with no degree or experience required.
-      </span>
+  <section
+        id="hero"
+        class="max-w-360 mx-auto md:ps-[114px] md:pe-[114px] pb-4 pt-8 lg:pt-0 bg-[#FAFAFA] dark:bg-gray-500 px-4"
+      >
+        <div
+          class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row"
+        >
+          <!-- content - start -->
+          <div
+            class="flex flex-col justify-center sm:text-center lg:pt-12 lg:text-left xl:w-5/12 xl:pt-17"
+          >
+            <p
+              class="font-bold text-[#2D3142] dark:text-white font-jakarta md:text-lg xl:text-lg"
+            >
+              Discover <span class="text-active">-</span> Interact
+              <span class="text-active">-</span> Engage
+            </p>
 
-      <div class="flex gap-2 md:gap-7">
-        <div class="flex flex-col items-center">
-          <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">438</h2>
-          <p class="text-[17px] font-medium">Videos</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">151</h2>
-          <p class="text-[17px] font-medium">Readings</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">108</h2>
-          <p class="text-[17px] font-medium">Quizzes</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">24</h2>
-          <p class="text-[17px] font-medium">Exercises</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <h2 class="text-[#00FF84] text-[25px] md:text-[35px]">4</h2>
-          <p class="text-[17px] font-medium">Assigments</p>
-        </div>
-      </div>
-      <div class="py-3 md:py-6 flex gap-3 md:gap-6">
-        <button
-          class="bg-[#F44335] p-4 md:px-10 rounded-xl transition-all hover:bg-red-600 hover:scale-105 text-white text-sm md:text-lg">
-          Sign up
-        </button>
-        <button
-          class="bg-[#ffff] p-4 md:px-10 rounded-xl transition-all hover:bg-gray-400 hover:scale-105 text-black text-sm md:text-lg shadow-md">
-          Learn more
-        </button>
-      </div>
-    </div>
-    <div class="md:col-span-6 col-span-12 md:mr-5">
-      <img src="./assets/images/Group-1964.png" alt="" />
-    </div>
-  </section>
+            <h1
+              class="font-bold text-black dark:text-white text-[28px] md:text-[64px] font-jakarta md:mb-13 leading-[5.125rem]"
+            >
+              Google
+              <span
+                class="text-active md:inline-block border-0 md:border-b-[3px] border-active"
+                >IT Support</span
+              >
+              Certificate
+            </h1>
 
-  <!--  work section  -->
-  <section class="md:mx-14 md:py-4 px-2 bg-[#fff]">
-    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
-      <p class="text-xl md:text-xs  lg:text-xl md:border-r-2 border-gray-500 pr-7  md:h-28">
-        Pave your path to career success by<br />
-        gaining a professional Google<br />
-        certificate with the support of C4U
-      </p>
-      <img src="./assets/images/Google.png" alt="" class="md:border-r-2 border-gray-500 pr-7 md:h-28" />
-      <img src="./assets/images/Work-Pensions.png" alt="" class="md:border-r-2 border-gray-500 pr-12 md:h-28" />
-      <img src="./assets/images/logo-1.png" alt="" class="md:h-28" />
-    </div>
-  </section>
+            <p
+              class="text-gray-500 dark:text-white mb-13.5 lg:w-5/5 xl:text-lg font-jakarta select-all selection:bg-active selection:text-white"
+            >
+              This is your path to a career in IT. In this program, you’ll learn
+              in-demand skills with no degree or experience required.
+            </p>
+            <div
+              class="work_list flex flex-row md:flex-row gap-x-10 gap-y-5 ps-1 mb-10 flex-wrap md:flex-nowrap"
+            >
+              <div class="work_item font-inter">
+                <p class="text-[#00FF84] text-2xl font-bold text-center">438</p>
+                <p
+                  class="text-[#2D3142] dark:text-white text-lg font-normal text-center"
+                >
+                  Videos
+                </p>
+              </div>
+              <div class="work_item font-inter">
+                <p class="text-[#00FF84] text-2xl font-bold text-center">151</p>
+                <p
+                  class="text-[#2D3142] dark:text-white text-lg font-normal text-center"
+                >
+                  Readings
+                </p>
+              </div>
+              <div class="work_item font-inter">
+                <p class="text-[#00FF84] text-2xl font-bold text-center">108</p>
+                <p
+                  class="text-[#2D3142] dark:text-white text-lg font-normal text-center"
+                >
+                  Quizzes
+                </p>
+              </div>
+              <div class="work_item font-inter">
+                <p class="text-[#00FF84] text-2xl font-bold text-center">24</p>
+                <p
+                  class="text-[#2D3142] dark:text-white text-lg font-normal text-center"
+                >
+                  Exercises
+                </p>
+              </div>
+              <div class="work_item font-inter">
+                <p class="text-[#00FF84] text-2xl font-bold text-center">4</p>
+                <p
+                  class="text-[#2D3142] dark:text-white text-lg font-normal text-center"
+                >
+                  Assigments
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-5 sm:flex-row sm:justify-center lg:justify-start"
+            >
+              <a
+                href="#"
+                class="inline-block rounded-lg bg-active px-9 py-4 text-center text-lg text-white outline-none ring-indigo-300 transition duration-100 hover:bg-active/50 focus-visible:ring active:bg-active font-jakarta font-normal leading-[27px]"
+                >Sign up</a
+              >
+
+              <a
+                href="#"
+                class="inline-block rounded-lg bg-white px-9 py-4 text-center text-lg text-[#072125] outline-none border-[1px] border-solid border-active transition duration-100 hover:bg-active/50 focus-visible:ring active:bg-active font-jakarta font-normal leading-[27px]"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <!-- content - end -->
+
+          <!-- image - start -->
+          <div class="h-48 overflow-hidden rounded-lg lg:h-auto xl:w-6/12">
+            <img
+              src="./assets/images/Group-1964.png"
+              loading="lazy"
+              alt="Photo by Fakurian Design"
+              class="h-full w-full object-contain object-center px-10"
+            />
+          </div>
+        </div>
+        <!-- image - end -->
+      </section>
+      <!-- Brand Section -->
+      <section
+        id="brand"
+        class="max-w-360 mx-auto bg-white dark:bg-gray-500 px-4 md:px-0"
+      >
+        <div
+          class="brand-content grid grid-cols-2 gap-2 lg:grid-cols-4 py-6 md:px-25 lg:divide-x-1 divide-solid divide-[#D1D3D4]"
+        >
+          <div class="brand-1 h-[135px] lg:pe-10 content-center">
+            <p class="max-w-[322px] dark:text-white">
+              Pave your path to career success by gaining a professional Google
+              certificate with the support of C4U
+            </p>
+          </div>
+          <div class="brand-2 h-[135px] lg:px-10 content-center">
+            <img
+              src="./assets/images/Google.png"
+              alt="Google"
+              class="object-contain object-center h-full"
+            />
+          </div>
+          <div class="brand-3 h-[135px] lg:px-10 content-center">
+            <img
+              src="./assets/images/Work-Pensions.png"
+              alt="work & Person"
+              class="object-contain object-center h-full"
+            />
+          </div>
+          <div class="brand-4 h-[135px] lg:ps-10 content-center">
+            <img
+              src="./assets/images/logo-1.png"
+              alt="work & Person"
+              class="object-contain object-center h-full"
+            />
+          </div>
+        </div>
+      </section>
+
+  
 
   <!--  learn section
       -->
-  <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 bg-[#FAFAFA]">
+  <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 bg-[#FAFAFA] ">
     <div class="md:col-span-6 col-span-12 md:ml-8 shadow-xl rounded-xl hover:scale-105 transition-all">
       <h3 class="font-semibold text-lg md:text-xl ml-4 py-4 border-b md:border-b-4 border-[#F9CCC7]">What you will learn
       </h3>
