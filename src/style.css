@@ -1,21 +1,31 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
-   
-  }
-  .course_conainter {
-    position: relative;
-  }
-  .course_conainter::after {
-    content: "";
-    background-image: url(../assets/images/Group-238902.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    width: 367px;
-    height: 427px;
-    top: -28%;
-    right: 0;
-  }
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-active: #f44335;
+  --color-background: #fafafa;
+}
+.course_conainter {
+  position: relative;
+}
+.course_conainter::after {
+  content: "";
+  background-image: url(../assets/images/Group-238902.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 367px;
+  height: 427px;
+  top: -28%;
+  right: 0;
+}
+.back-img {
+    background-image: url(../assets/images/brooke-cagle-g1Kr4Ozfoac-unsplash\ 2.png);
+}
 
