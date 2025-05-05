@@ -1,2 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+   
+  }
+  .course_conainter {
+    position: relative;
+  }
+  .course_conainter::after {
+    content: "";
+    background-image: url(../assets/images/Group-238902.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 367px;
+    height: 427px;
+    top: -28%;
+    right: 0;
+  }
+
