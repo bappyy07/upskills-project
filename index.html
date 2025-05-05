@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark scroll-smooth" id="htmlTag">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,38 +9,91 @@
   <title>IT-Support</title>
 </head>
 
-<body>
-  <header class="md:mx-14 md:py-4 px-2 bg-[#FFFFFF]">
-    <nav class="container mx-auto flex items-center justify-between">
-      <div class="flex items-center">
-        <a href="#"><img src="./assets/images/logo-1.png" alt="" class="w-10 md:w-fit" /></a>
-      </div>
-      <div class="flex items-center gap-3 md:gap-7">
-        <a href="#"
-          class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">Home</a>
-        <a href="#"
-          class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">About
-          Us</a>
-        <a href="#"
-          class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">Upskill</a>
-        <a href="#"
-          class="md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md font-medium hover:bg-[#F44335] transition hover:scale-105 hover:translate-y-1">Contact</a>
-      </div>
-      <div class="flex items-center gap-2 md:gap-7">
-        <button
-          class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#f44235c6] transition hover:scale-105 hover:translate-y-1">
-          Register Internet
-        </button>
-        <button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="size-6 hover:translate-y-1">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-          </svg>
-        </button>
-      </div>
-    </nav>
-  </header>
+<body class="dark:bg-[#181C14] bg-[#FAFAFA]">
+  <header
+  class="max-w-360 ps-4 md:ps-[45px] pe-4 md:pe-15 py-3 mx-auto flex items-center justify-between bg-white dark:bg-gray-500"
+>
+  <!-- Logo Image -->
+  <a href="./index.html"
+    ><img src="./assets/images/logo-1.png" alt="Logo"
+  /></a>
+  <!-- Navigation Bar -->
+  <nav class="pe-8 hidden lg:flex">
+    <ul class="flex items-center justify-between gap-8 font-jakarta">
+      <li>
+        <a
+          href=""
+          class="font-normal text-base text-[#072125] hover:text-active dark:text-white"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href=""
+          class="font-normal text-base text-[#072125] hover:text-active dark:text-white"
+          >About Us</a
+        >
+      </li>
+      <li>
+        <a href="" class="font-normal text-base text-active">Upskill</a>
+      </li>
+      <li>
+        <a
+          href=""
+          class="font-normal text-base text-[#072125] hover:text-active dark:text-white"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <!-- Button Part -->
+  <div
+    class="button_part hidden lg:flex items-center justify-between gap-[22px]"
+  >
+    <a
+      href=""
+      class="inline-block px-4 py-2.5 bg-active hover:bg-active/50 text-center text-lg font-jakarta font-normal rounded-lg text-white"
+      >Register Interest</a
+    >
+    <span id="switch">
+      <svg
+        width="38"
+        height="38"
+        viewBox="0 0 38 38"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="cursor-pointer hover:fill-active"
+      >
+        <path
+          d="M34.4407 23.7534C32.5585 24.5378 30.5391 24.9404 28.5 24.9377C19.9738 24.9377 13.0625 18.0265 13.0625 9.50024C13.0625 7.3944 13.4837 5.38832 14.2468 3.55957C11.434 4.733 9.03128 6.71255 7.34133 9.24889C5.65137 11.7852 4.74974 14.7649 4.75 17.8127C4.75 26.339 11.6612 33.2502 20.1875 33.2502C23.2353 33.2505 26.215 32.3489 28.7513 30.6589C31.2877 28.969 33.2672 26.5662 34.4407 23.7534Z"
+          stroke="black"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </span>
+  </div>
+  <button
+    type="button"
+    class="inline-flex items-center gap-2 rounded-lg bg-active px-2.5 py-2 text-sm font-semibold text-white ring-indigo-300 hover:bg-active/50 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+
+    Menu
+  </button>
+</header>
 
   <!--  discover section -->
   <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 bg-[#FAFAFA]">
@@ -1804,6 +1857,13 @@
         Copyright 2022 Creatives For You LTD
       </div>
     </footer>
+
+    <script>
+      const htmlTag = document.getElementById("htmlTag");
+      document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+      });
+    </script>
 
 </body>
 
